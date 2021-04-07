@@ -1,0 +1,36 @@
+.searchbar
+{
+    display: block;
+    margin: 1.7em auto 0em auto;
+    width: 34.5em;
+    height: 0.8em;
+    border-radius: 25px;
+    border: 1px solid #dfe1e5;
+    padding: 1em;
+    background-color: white;
+}
+
+.searchbar:hover
+{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.text-input
+{
+    display: block;
+    margin: -1em auto 0em auto;
+    width: 42em;
+    border-radius: 25px;
+    border: none;
+    padding: 0.7em;
+    background-color: white;
+    outline: none;
+}
+
+#mainpage-logo
+{
+    display: block;
+    margin: 16em auto 0em auto;
+}

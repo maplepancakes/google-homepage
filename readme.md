@@ -1,0 +1,1 @@
+PROJECT OBJECTIVE: To create a webpage that is identical to Google's homepage (www.google.com)
