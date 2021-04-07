@@ -20,13 +20,15 @@
 .text-input
 {
     display: block;
-    margin: -1em auto 0em auto;
-    width: 42em;
+    margin: -0.9em auto 0em auto;
+    width: 32em;
     border-radius: 25px;
     border: none;
     padding: 0.7em;
     background-color: white;
     outline: none;
+    font-family: "Open Sans", Arial;
+    font-size: 16px;
 }
 
 #mainpage-logo
