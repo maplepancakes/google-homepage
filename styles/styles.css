@@ -1,3 +1,8 @@
+body
+{
+    background-color: white;
+}
+
 .searchbar
 {
     display: block;
@@ -49,6 +54,21 @@
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
     color: #202124; 
+}
+
+footer div .footer-links
+{
+    font-family: "Open Sans", Arial;
+    font-size: 15px;
+    color: #70757a;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+
+footer div .footer-links:hover
+{
+    text-decoration: underline;
 }
 
 #homepage-navbar a
@@ -120,14 +140,65 @@
     margin: 16em auto 0em auto;
 }
 
+#language-label-and-link-container
+{
+    margin-top: 30px;
+}
+
 #language-label 
 {
     font-family: "Open Sans", Arial;
-    margin-bottom: 100px;
+    font-size: 13px;
 }
 
 #language-label #language-link
 {
     font-family: "Open Sans", Arial;
+    font-size: 13px;
     text-decoration: none;
+}
+
+#language-label #language-link:hover
+{
+    text-decoration: underline;
+}
+
+footer #country-label-container
+{
+    height: 2em;
+    background-color: #f2f2f2;
+    margin-top: 20.5em;
+    border-bottom: 1px solid #dadce0;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+footer #country-label-container #country-label
+{
+    font-family: "Open Sans", Arial;
+    font-size: 15px;
+    color: #70757a;
+}
+
+footer #footer-links-main-container
+{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 20px;
+}
+
+footer #footer-links-main-container #footer-links-container-1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer #footer-links-main-container #footer-links-container-2
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
