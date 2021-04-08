@@ -43,7 +43,7 @@
 {
     position: absolute;
     top: 23px;
-    right: 175px;
+    right: 240px;
 }
 
 #homepage-navbar #link-to-gmail:hover
@@ -55,7 +55,7 @@
 {
     position: absolute;
     top: 23px;
-    right: 120px;
+    right: 185px;
 }
 
 #homepage-navbar #link-to-google-images:hover
@@ -66,22 +66,42 @@
 #homepage-navbar a #homepage-google-apps-image
 {
     opacity: 0.5;
-    height: 1.5em;
+    height: 1.8em;
     position: absolute;
-    right: 70px;
-    top: 20px;
+    right: 135px;
+    top: 18px;
 }
 
-#homepage-navbar a #homepage-google-account-image
+#homepage-navbar a #homepage-sign-in-button
 {
-    border-radius: 50%;
     position: absolute;
+    top: 10px;
     right: 20px;
-    top: 14px;
+    background-color: #2b7de9;
+    color: white;
+    font-family: "Open Sans", Arial;
+    font-size: 14px;
+    height: 35px;
+    width: 95px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#homepage-navbar a #homepage-sign-in-button:hover
+{
+    opacity: 0.9;
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
 }
 
 #homepage-logo
 {
     display: block;
     margin: 16em auto 0em auto;
+}
+
+#google-search-button
+{
+    position: absolute;
+    margin: auto auto auto 10em;
 }
