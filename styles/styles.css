@@ -13,6 +13,7 @@ body
     border: 1px solid #dfe1e5;
     padding: 1em;
     background-color: white;
+    position: relative;
 }
 
 .searchbar:hover
@@ -25,7 +26,7 @@ body
 .text-input
 {
     display: block;
-    margin: -0.9em auto 0em auto;
+    margin: -0.9em -0.3em 0em auto;
     width: 32em;
     border-radius: 25px;
     border: none;
@@ -138,6 +139,15 @@ footer div .footer-links:hover
 {
     display: block;
     margin: 16em auto 0em auto;
+}
+
+#magnifying-glass-image
+{
+    transform: scale(0.45);
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    color: #dfe1e5;
 }
 
 #language-label-and-link-container
