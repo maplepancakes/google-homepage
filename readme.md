@@ -1,4 +1,6 @@
-This project involves a created webpage that has a similar layout to that of https://www.google.com.
+# PROJECT STATUS: Completed
+
+A website similar-ish to https://www.google.com. 
 
 Created using HTML and CSS.
 
