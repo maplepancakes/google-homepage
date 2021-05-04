@@ -1,6 +1,5 @@
 # PROJECT STATUS: Completed
-
-A website similar-ish to https://www.google.com. 
+### Objective: To demonstrate a basic understanding of HTML and CSS.
 
 Created using HTML and CSS.
 
